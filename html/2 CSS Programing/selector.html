@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Selectors </title>
+<style>
+body{
+	background-image:url("images/draft.jpg");
+	background-repeat: no-repeat;
+	background-position: 340px 400px;
+
+}
+/* Class selector */
+p.special{color:red;}
+.standout{background-color:yellow;}
+/* ID selector - id can be used only once*/
+/* for class use . and for id # */
+p#paraid{font-style:italic;}
+*{font-family:cursive;}
+/*this is pseudo class , use : */
+a:link{color:red;}
+a:active{color:blue;}
+a:hover{color:purple;}
+a:visited{color:green;}
+ol{list-style-type:lower-roman;}
+</style>
+</head>
+<body>
+<h1 class="standout"> Heading </h1>
+<p class="special"> This is first paragraph </p>
+<p class="standout" id="paraid"> This is second paragraph </p>
+
+<p><a href="http://naver.com"> Naver </a> </p>
+
+<ol>
+<li> item 1 </li>
+<li> item 2 </li>
+<li> item 3 </li>
+</ol>
+
+</body>
+</html>

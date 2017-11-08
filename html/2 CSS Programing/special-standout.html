@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Selectors </title>
+<!-- 1.external style / <link>-->
+<link type="text/css" rel="stylesheet" href="firstcss.css">
+<!-- 2.internal style / <style> element-->
+<style>
+h2{color:red;}
+</style>
+</head>
+<body>
+<!-- div is used for logical division of the page -->
+<!-- div is block level -->
+<!-- span is inline -->
+<div class="standout">
+<!-- 3.inline style / style attribute -->
+<h2 style="color:green">iPhone!  iPhone!</h2>
+<p >See our spectacular iPhone <span class="special">specials!</span></p>
+<p>Offer valid only for Today!!.</p>
+<p>We'll beat any advertised price!</p>
+</div>
+
+<div class="special">
+<h2 >iPhone!  iPhone!</h2>
+<p>See our <span class="standout">spectacular</span> iPhone specials!</p>
+<p>Offer valid only for Today!!.</p>
+<p>We'll beat any advertised price!</p>
+</div>
+</body>
+</html>

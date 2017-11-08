@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+<h1> Change the color of all paragrph and h2 elements, to "red". Group the selectors to minimize code. </h1>
+<h2>This is a heading</h2>
+<h3>This is a smaller heading</h3>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
